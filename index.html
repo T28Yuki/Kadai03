@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>じゃんけんアプリ</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>じゃんけんアプリ</h1>
+
+    <!-- じゃんけんアプリのルールを記載 -->
+    <div class="rule">
+        <ol>
+            <li>1. グー・チョキ・パーより1つクリック</li>
+            <li>2. あいこの場合はもう一回ボタンをクリック</li>
+            <li>3. きみが勝ったら黄色の車が前に進むよ！</li>
+        </ol>
+
+        <img class="yourcar" src="./img/car2.png">
+    </div>
+    <p></p>
+
+    <div id="janken">
+
+        <!-- ランダム結果を表示する -->
+        <div class="janken_area">
+            <img src="./img/棒人間 仁王立ち.png" class="random-result">
+
+
+            <!-- 対戦者ボタンを作る -->
+            <button class="btn1">ぐー</button>
+            <button class="btn2">ちょき</button>
+            <button class="btn3">ぱー</button>
+        </div>
+
+        <!-- 対戦結果を表示する -->
+        <h2></h2>
+
+        <div class="button10">
+            <a href="" class="button10">もう一回！</a>
+        </div>
+
+    </div>
+
+    
+    <!-- ゴールの作成 -->
+    <div class="goal">
+        <img id="car1" src="./img/car1.png">
+        <img id="car2" src="./img/car2.png">
+    </div>
+
+    <p class="mypoint"></p>
+    <p class="yourpoint"></p>
+
+
+
+
+    <!-- jqueryを紐づける -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- jsを紐づける -->
+    <script src="./js/test.js"></script>
+
+
+</body>
+</html>
