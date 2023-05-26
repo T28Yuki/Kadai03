@@ -1,0 +1,166 @@
+body {
+  background-color: #f0f8ff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+    font-style: italic;
+    font-family: "ＭＳ Ｐゴシック";
+    color: blue;
+    letter-spacing: 20px;
+}
+
+.janken_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.janken_area .btn1 {
+    background-image: url(../img/普通のぐー.png);
+    width: 225px;
+    height: 225px;
+    border: none;
+    font-size: 0px;
+}
+
+.janken_area .btn1:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    border-bottom: none;
+  }
+
+.janken_area .btn2 {
+    background-image: url(../img/普通のちょき.png);
+    width: 225px;
+    height: 225px;
+    border: none;
+    font-size: 0px;
+}
+
+.janken_area .btn2:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    border-bottom: none;
+  }
+
+.janken_area .btn3 {
+    background-image: url(../img/普通のぱー.png);
+    width: 225px;
+    height: 225px;
+    border: none;
+    font-size: 0px;
+}
+
+.janken_area .btn3:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    border-bottom: none;
+  }
+
+ol {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.rule {
+    font-size: 15px;
+    opacity: 0.5;
+    text-align: center;
+}
+
+h2{ 
+    text-align: center;
+    margin: 75px 0px;
+    font-size: 30px;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+
+.button10 a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    padding: 1em 2em;
+    width: 300px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #ccc;
+    border-radius: 50vh;
+    transition: 0.3s;
+  }
+  
+  .button10 a::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    border: 2px solid #3d9ec8;
+    border-radius: 50vh;
+    transition: 0.2s;
+  }
+  
+  .button10 a::after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid #333333;
+    border-right: 3px solid #333333;
+    transform: rotate(45deg);
+  }
+  
+  .button10 a:hover::before {
+    top: 0;
+    left: 0;
+  }
+  
+  .button10 a:hover {
+    text-decoration: none;
+    background-color: #a0c4d3;
+  }
+
+  .goal {
+    width: 900px;
+    padding: 180px;
+    background-image: url(../img/道路.jpeg);
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+  }
+
+  #car1 {
+    position: absolute;
+    top: 80px;
+    left: 720px;
+  }
+
+  #car2 {
+    position: absolute;
+    top: 190px;
+    left: 700px;
+  }
+
+ 
